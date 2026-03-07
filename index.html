@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cyber Password Security Tool</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<canvas id="matrix"></canvas>
+
+<div class="card">
+
+<h1>🔐 Cyber Password Security Tool</h1>
+
+<div class="inputBox">
+<input type="password" id="password" placeholder="Enter password">
+<button id="toggle">👁</button>
+</div>
+
+<div class="strength-meter">
+<div id="strength"></div>
+</div>
+
+<p id="message"></p>
+
+<div class="buttons">
+<button id="generate">Generate Password</button>
+<button id="copy">Copy</button>
+<button id="breach">Check Breach</button>
+</div>
+
+<div id="breachResult"></div>
+
+<div class="tips">
+<h3>🔐 Security Tips</h3>
+<ul>
+<li>Use at least 12 characters</li>
+<li>Include uppercase, numbers & symbols</li>
+<li>Never reuse passwords</li>
+<li>Use a password manager</li>
+</ul>
+</div>
+
+<div class="footer">
+Developed by <span>Abhishek Yadav</span>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
